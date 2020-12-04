@@ -9,7 +9,7 @@ const argv = require('yargs')
             alias: 'l'           
         }
    })
-   .command('crear','Crea un archivo con la tabla de multimplicar', {
+   .command('crear','Crea un archivo con la tabla de multiplicar', {
     base:{
       demand: true,
       alias: 'b'
